@@ -1,0 +1,44 @@
+# Gomoku Game
+
+## Program Description
+
+Gomoku, also known as Five in a Row, is a two-player board game. Players take turns placing stones on the board. The first player to get five or more stones in a row horizontally, vertically, or diagonally wins.
+
+## How to Play
+
+1. Enter the names of both players.
+2. Choose a board size.
+3. Player 1 uses black stones and moves first. Player 2 uses white stones.
+4. Click an empty intersection to place a stone. An occupied or invalid position cannot be used.
+5. The first player to connect five or more stones in a row wins. If the board is full first, the game ends in a draw.
+6. Choose whether to play another game.
+
+## Features
+
+- Supports two local players.
+- Lets players enter their names and choose a board size.
+- Checks for wins in horizontal, vertical, and both diagonal directions.
+- Detects a draw when the board is full.
+- Saves each move to `moves.txt`.
+- Offers the option to start another game after a result.
+
+## Move Log
+
+The game writes moves to `moves.txt` in the program's current working directory. Each entry includes the player's name, stone color, and board coordinates. The file is created automatically when the game runs.
+
+The game currently **writes** move records but does not read them back into the game or display a move history.
+
+## Files
+
+- `src/Ui.java` — Starts the game and handles the interface, player turns, and move logging.
+- `src/Board.java` — Draws the board and checks legal moves, wins, and draws.
+- `src/Location.java` — Represents a board position and the player who placed a stone.
+- `moves.txt` — Move log created when the game runs.
+
+## Author
+
+Lucina Li
+
+## Completion Date
+
+June 14, 2023

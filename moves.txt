@@ -1,0 +1,30 @@
+
+--- New game: 1 vs 2 (20x20 board) ---
+1 (Black): (10, 9)
+2 (White): (11, 9)
+1 (Black): (12, 9)
+2 (White): (11, 10)
+1 (Black): (12, 10)
+2 (White): (12, 7)
+1 (Black): (12, 8)
+2 (White): (11, 8)
+1 (Black): (13, 8)
+2 (White): (11, 7)
+1 (Black): (12, 11)
+2 (White): (11, 6)
+
+--- New game: 1 vs 2 (15x15 board) ---
+1 (Black): (8, 7)
+2 (White): (8, 6)
+1 (Black): (9, 6)
+2 (White): (9, 7)
+1 (Black): (10, 5)
+
+--- New game: 1 vs 2 (15x15 board) ---
+1 (Black): (7, 5)
+2 (White): (8, 6)
+1 (Black): (7, 7)
+2 (White): (9, 8)
+1 (Black): (7, 9)
+2 (White): (6, 8)
+1 (Black): (5, 6)
